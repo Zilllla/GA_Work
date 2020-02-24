@@ -1,14 +1,32 @@
+body {
+  text-align: center;
+}
+header {
+
+}
+nav ul {
+  width: 900px;
+  margin: 0 auto;
+}
+nav li {
+  text-align: center;
+  width: 150px;
+}
+li {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around;
+}
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .container > img {
   width: 50%;
 }
 .carousel-container {
   display: flex;
-  width: 80%;
+  width: 38%;
   justify-content: space-around;
   overflow: auto;
 }
@@ -21,4 +39,7 @@
 }
 .carousel-images img:first-of-type {
   display: block;
+}
+footer {
+  padding: 5%;
 }
