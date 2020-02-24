@@ -16,7 +16,7 @@
   width: 80%;
 }
 .carousel-images img {
-  border-radius: 10px;
+  border-radius: 8px;
   display: none;
 }
 .carousel-images img:first-of-type {

@@ -1,5 +1,5 @@
 let currentImg = 0;
-let finalImg = 3;
+let finalImg = 2;
 
 $('.next-button').on('click', () => {
   const $displayImg = $('.carousel-images').children().eq(currentImg).css('display', 'none');
