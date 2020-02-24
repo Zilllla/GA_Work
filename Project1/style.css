@@ -15,9 +15,10 @@
 .carousel-images {
   width: 80%;
 }
-/* .carousel-images img {
-  width: 100%;
-} */
+.carousel-images img {
+  border-radius: 10px;
+  display: none;
+}
 .carousel-images img:first-of-type {
   display: block;
 }
