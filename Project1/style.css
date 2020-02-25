@@ -1,22 +1,29 @@
 body {
-
+  max-width: 1300px;
 }
 header > img {
+  background-position: center;
 
 }
 
+nav {
+  background-color: rgba(107, 107, 107, 0.4);
+  margin-top: -4px;
+  width: 1300px;
+}
 nav ul {
-  width: 900px;
   margin: 0 auto;
+  text-align: center;
 }
 nav li {
   text-align: center;
-  width: 150px;
+  width: 220px;
 }
 li {
   list-style: none;
   display: inline-flex;
   justify-content: space-around;
+  padding: 10px;
 }
 .container {
   display: inline-flex;
