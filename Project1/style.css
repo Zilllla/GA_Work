@@ -1,6 +1,6 @@
-body {
+/* body {
   text-align: center;
-}
+} */
 header {
 
 }
@@ -18,20 +18,19 @@ li {
   justify-content: space-around;
 }
 .container {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
 }
-.container > img {
+/* .container > img {
   width: 50%;
-}
+} */
 .carousel-container {
   display: flex;
-  width: 38%;
+  width: auto;
   justify-content: space-around;
-  overflow: auto;
+
 }
 .carousel-images {
-  width: 80%;
+  width: auto;
 }
 .carousel-images img {
   border-radius: 8px;
@@ -41,7 +40,21 @@ li {
   display: block;
 }
 .info {
-  
+  display: inline-flex;
+}
+dl {
+  display: inline-flex;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+dt {
+  float: left;
+  width: 50%;
+}
+dd {
+  float: left;
+  width: 50%;
 }
 footer {
   padding: 5%;
