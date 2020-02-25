@@ -1,9 +1,10 @@
-/* body {
-  text-align: center;
-} */
-header {
+body {
 
 }
+header > img {
+
+}
+
 nav ul {
   width: 900px;
   margin: 0 auto;
@@ -35,18 +36,25 @@ li {
 .carousel-images img {
   border-radius: 8px;
   display: none;
+  border: 15px solid black;
 }
 .carousel-images img:first-of-type {
   display: block;
 }
 .info {
   display: inline-flex;
+  padding: 0 2% 1% 12%;
+  height: 450px;
+  width: 40em;
+  padding-left: 6em;
 }
 dl {
   display: inline-flex;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
   flex-direction: column;
+  border: 15px solid black;
+  border-radius: 8px;
 }
 dt {
   float: left;
@@ -54,7 +62,8 @@ dt {
 }
 dd {
   float: left;
-  width: 50%;
+  width: 80%;
+  padding: 10px 1% 2% 1%;
 }
 footer {
   padding: 5%;
