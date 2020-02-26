@@ -20,7 +20,28 @@ body {
     background-position: center;
     border-radius: 10px 10px 0 0;
   }
-
+  .quote {
+    border-bottom: 1px solid darkgrey;
+  }
+  .quote > p {
+    font-size: 30px;
+    margin: 5em 5em 1em 5em;
+    line-height: 69px;
+  }
+  .jWaters {
+    text-align: right;
+  }
+  a {
+    text-decoration: underline;
+    color: black;
+  }
+  a:hover {
+    color: #8A1013;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
   nav {
     background-color: rgba(107, 107, 107, 0.4);
     margin-top: -4px;
@@ -46,6 +67,8 @@ body {
   }
   .intro > p {
     margin-left: 2em;
+    /* font-size: larger; */
+    line-height: 35px;
   }
   h1 {
     text-align: center;
@@ -56,6 +79,7 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     width: 1300px;
+    background-color: darkgrey;
   }
   .carousel-container {
     display: flex;
@@ -79,6 +103,9 @@ body {
   }
   .carousel-images img:first-of-type {
     display: block;
+  }
+  .carousel-images img:hover {
+    opacity: 0.6;
   }
   .info {
     display: inline-flex;
@@ -110,6 +137,8 @@ body {
   }
   footer {
     padding: 5%;
+    border-top: 1px solid darkgrey;
+    margin-top: 6em;
   }
 
 }
